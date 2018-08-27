@@ -3,7 +3,7 @@ const email = require('emailjs/email');
 
 const server = email.server.connect({
     user: 'parrot11@mail.ru',
-    password: 'Teemo2223',
+    password: 'QWERTYUIOP',
     host: 'smtp.mail.ru',
     ssl: true
 });

@@ -2,7 +2,7 @@ body {
     font-size: 1rem;
 }
 
-span {
+h1 span,h2 span,h3 span,p span {
     border-bottom: 0.7rem solid #990300;
 }
 
@@ -28,6 +28,7 @@ span {
     padding-right: 0.7rem;
     color: white !important;
     background: #981d17;
+    border:none;
 }
 
 .cyan-button {
@@ -38,6 +39,7 @@ span {
     padding-right: 1rem;
     color: white !important;
     background: #008fa3;
+    border:none;
 }
 
 .header img {

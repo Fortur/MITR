@@ -6,6 +6,7 @@
 
   <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/captcha.css"/>
 
 </head>
 
@@ -233,7 +234,7 @@
           Консультационные услуги по сопровождению цифровой трансформации бизнеса.
         </p>
       </div>
-      <div class="justify-content-end col-md-6">
+      <div class="justify-content-end col-md-6 pr-0">
         <img src="../img/block6.png">
       </div>
     </div>
@@ -322,6 +323,8 @@
   <br>
   <br>
 
+  <iframe name="iframe1" style="position: absolute; left: -9999px;"></iframe>
+
   <div class="ten-block">
     <a name="submit"></a>
     <h1 class="text-center" id="submit">Пода<span>ть з</span>аявку</h1>
@@ -329,49 +332,40 @@
     <br>
     <h3 class="text-center">Заполните форму:</h3>
     <div class="container-fluid">
-      <form action="/feedback" method="POST">
+      <form id="formFeedback" action="/feedback" method="POST" target="iframe1">
         <fieldset class="form-group">
           <div class="row">
-            <div class="row  justify-content-around container-fluid">
-              <div class="form-check col-3">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                <label class="form-check-label" for="gridRadios1">
+            <div class="row justify-content-around container-fluid">
+              <div class="col-2 custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline1" name="ivent" class="custom-control-input"
+                       value="20 сентября. Современный IT-рекрутинг.«Генератор идей». ">
+                <label class="custom-control-label" for="customRadioInline1">
                   <p>
-                    <b>
-                      20 сентября
-                    </b>
-                    <br>
-                    Современный IT-рекрутинг.
-                    <br>
-                    «Генератор идей».
+                    <b>20 сентября</b>
+                    <br>Современный IT-рекрутинг.
+                    <br>«Генератор идей».
                   </p>
                 </label>
               </div>
-              <div class="form-check col-3">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                <label class="form-check-label" for="gridRadios2">
+              <div class="col-2 custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline2" name="ivent" class="custom-control-input"
+                       value="20 сентября. Современный IT-рекрутинг.«Генератор идей». ">
+                <label class="custom-control-label" for="customRadioInline2">
                   <p>
-                    <b>
-                      20 сентября
-                    </b>
-                    <br>
-                    Современный IT-рекрутинг.
-                    <br>
-                    «Генератор идей».
+                    <b>20 сентября</b>
+                    <br>Современный IT-рекрутинг.
+                    <br>«Генератор идей».
                   </p>
                 </label>
               </div>
-              <div class="form-check col-3">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                <label class="form-check-label" for="gridRadios3">
+              <div class="col-2 custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline3" name="ivent" class="custom-control-input"
+                       value="20 сентября. Современный IT-рекрутинг.«Генератор идей». ">
+                <label class="custom-control-label" for="customRadioInline3">
                   <p>
-                    <b>
-                      20 сентября
-                    </b>
-                    <br>
-                    Современный IT-рекрутинг.
-                    <br>
-                    «Генератор идей».
+                    <b>20 сентября</b>
+                    <br>Современный IT-рекрутинг.
+                    <br>«Генератор идей».
                   </p>
                 </label>
               </div>
@@ -379,35 +373,96 @@
           </div>
         </fieldset>
         <div class="form-group row">
-          <input type="text" class="form-control mx-5" id="name" name="answers[name]" placeholder="Ваше имя и фамилия полностью">
+          <input type="text" class="form-control mx-5" name="FI" placeholder="Ваше имя и фамилия полностью">
         </div>
         <div class="form-group row">
-          <input type="text" class="form-control mx-5" id="2" placeholder="Возраст">
+          <input type="text" class="form-control mx-5" name="age" placeholder="Возраст">
         </div>
         <div class="form-group row">
-          <input type="text" class="form-control mx-5" id="3"
+          <input type="text" class="form-control mx-5" name="edu"
                  placeholder="Образование (вуз, факультет, год окончания)">
         </div>
         <div class="form-group row">
-          <input type="text" class="form-control mx-5" id="4" placeholder="Область профессиональных интересов">
+          <input type="text" class="form-control mx-5" name="interests"
+                 placeholder="Область профессиональных интересов">
         </div>
         <div class="form-group row">
-          <input type="text" class="form-control mx-5" id="5"
+          <input type="text" class="form-control mx-5" name="startup"
                  placeholder="Есть ли опыт организации стартапа? Если да, то в каких сферах">
         </div>
         <div class="form-group row">
-          <input type="text" class="form-control mx-5" id="6" placeholder="Телефон">
+          <input type="text" class="form-control mx-5" name="phone" placeholder="Телефон">
         </div>
         <div class="form-group row">
-          <input type="text" class="form-control mx-5" id="7" placeholder="E-mail">
+          <input type="text" class="form-control mx-5" name="email" placeholder="E-mail">
         </div>
-        <div class="form-group row">
-          <input type="text" class="form-control mx-5" id="inputPassword3" placeholder="Password">
-        </div>
-        <div class="form-group row justify-content-around">
-          <button type="submit" class="red-button">Подать заявку</button>
+        <div class="form-group row justify-content-center mr-5">
+          <div>
+            <button style="visibility:hidden" id="formsubmitEnd" type="submit" class="mx-5 red-button" data-toggle="modal" data-target="#flipFlop">Подать заявку</button>
+          </div>
+          <div>
+            <h3 id="submitText" style="visibility:hidden" >Заявка подана!</h3>
+          </div>
         </div>
       </form>
+    </div>
+  </div>
+</div>
+
+
+<div>
+  <div class="captcha_wrap">
+    <div class="captcha">
+      Расставьте по порядку
+    </div>
+    <ul id="sortable">
+      <li class="captchaItem">1</li>
+      <li class="captchaItem">2</li>
+      <li class="captchaItem">3</li>
+      <li class="captchaItem">4</li>
+      <li class="captchaItem">5</li>
+      <li class="captchaItem">6</li>
+    </ul>
+  </div>
+  <button id="formsubmit" class="mx-5 cyan-button" data-toggle="modal" data-target="">Готово</button>
+</div>
+
+
+<!-- The modal -->
+<div class="modal fade" id="flipFlop" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="modalLabel">Готово!</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Ваша заявка отправлена.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="flipFlop2" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="modalLabel2">Упс</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Капча не верна.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+      </div>
     </div>
   </div>
 </div>
@@ -420,11 +475,11 @@
   <div class="row container-fluid">
     <img class="col-auto" src="../img/foot.png">
 
-    <div class="main-b offset-7 col-5">
+    <div class="main-b offset-7 col-5  offset-md-9 col-md-3">
       <div class="down-b contacts">
         <h3>Остались вопросы?</h3>
         <p>
-          Пишите: <b>dastrateg@ya.ry</b>
+          Пишите: <b>dastrateg@ya.ru</b>
         </p>
         <p>
           Звоните: <b>+7(499)400-56-98</b>
@@ -441,11 +496,23 @@
   </div>
 </div>
 
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-<script src="../js/bootstrap.js"></script>
-<script src="../js/feedback.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<script type="text/javascript" src="../js/ui.core.js"></script>
+<script type="text/javascript" src="../js/ui.sortable.js"></script>
+
+<script type="text/javascript" src="../js/captcha.js"></script>
 
 
 </body>

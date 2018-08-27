@@ -1,0 +1,31 @@
+{
+  "name": "ase2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "echarts": "^4.1.0",
+    "emailjs": "^2.2.0",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.2",
+    "nunjucks": "^3.1.2",
+    "svg.js": "^2.6.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jayzzer/ase2018.git"
+  },
+  "author": "IT-Lab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jayzzer/ase2018/issues"
+  },
+  "homepage": "https://gitlab.com/jayzzer/ase2018#README"
+}

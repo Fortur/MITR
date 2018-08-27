@@ -1,0 +1,179 @@
+{
+    "pages": {
+      "gri": {
+        "title_ru": "Указатель содержания GRI",
+        "title_en": "The GRI content index",
+        "parent": "",
+        "prev": "",
+        "next": ""
+      },
+        "president": {
+            "title_ru": "Обращение Президента",
+            "title_en": "Address by the President",
+            "parent": "",
+            "prev": "markets_of_presence",
+            "next": "content"
+        },
+        "corporate_governance": {
+            "title_ru": "Корпоративное управление",
+            "title_en": "Сorporate governance",
+            "parent": "",
+            "prev": "president",
+            "next": "search_page"
+        },
+        "soc_rep_capital" :{
+            "title_ru": "Социально-репутационный капитал",
+            "title_en": "Social and reputation capital",
+            "parent": "",
+            "prev": "president",
+            "next": "search_page"
+        },
+        "risks_and_opportunities": {
+            "title_ru": "Риски и возможности",
+            "title_en": "Risks and opportunities",
+            "parent": "",
+            "prev": "president",
+            "next": "search_page"
+        },
+        "human_capital": {
+            "title_ru": "Человеческие ресурсы",
+            "title_en": "Human capital",
+            "parent": "",
+            "prev": "president",
+            "next": "search_page"
+        },
+        "content": {
+            "title_ru": "Содержание",
+            "title_en": "Cjntent",
+            "parent": "",
+            "prev": "president",
+            "next": "search_page"
+        },
+        "search_page": {
+            "title_ru": "Поиск",
+            "title_en": "Search",
+            "parent": "",
+            "prev": "content",
+            "next": "index"
+        },
+        "index": {
+            "title_ru": "индекс",
+            "title_en": "index",
+            "parent": "",
+            "prev": "searchPage",
+            "next": "stakeholdersInteraction"
+        },
+        "division_strategy": {
+            "title_ru": "1.1 Вклад Инжинирингового дивизиона в реализацию стратегии Госкорпорации",
+            "title_en": "division_strategy",
+            "parent": "",
+            "prev": "index",
+            "next": ""
+        },
+        "key_metrics": {
+            "title_ru": "Ключевые показатели",
+            "title_en": "Key metrics",
+            "parent": "",
+            "prev": "",
+            "next": ""
+        },
+        "info_about_report": {
+            "title_ru": "Информация об отчете",
+            "title_en": "Informations about the Report",
+            "parent": "",
+            "prev": "",
+            "next": ""
+        },
+        "about_company": {
+            "title_ru": "О компании",
+            "title_en": "About company",
+            "parent": "",
+            "prev": "",
+            "next": ""
+        },
+        "digital_transformation": {
+            "title_ru": "1.4. Цифровая трансформация Инжинирингового дивизиона",
+            "title_en": "About company",
+            "parent": "",
+            "prev": "",
+            "next": ""
+        },
+        "key_event":{
+            "title_ru": "Ключевые события",
+            "title_en": "Key event",
+            "parent": "",
+            "prev": "president",
+            "next": "business_model"
+        },
+        "business_model": {
+            "title_ru": "1.2. Бизнес-модель",
+            "title_en": "Business model",
+            "parent": "",
+            "prev": "keyEvent",
+            "next": "markets_of_presence"
+        },
+        "markets_of_presence": {
+            "title_ru": "1.3. Рынки присутствия",
+            "title_en": "Markets of presence",
+            "parent": "",
+            "prev": "business_model",
+            "next": "search_page"
+        },
+        "financial_capital": {
+            "title_ru": "2.1. Финансовый капитал",
+            "title_en": "Markets of presence",
+            "parent": "",
+            "prev": "business_model",
+            "next": "search_page"
+        },
+        "productive_capital": {
+            "title_ru": "2.2. Производственный капитал",
+            "title_en": "Markets of presence",
+            "parent": "",
+            "prev": "business_model",
+            "next": "search_page"
+        },
+        "intellectual_capital": {
+            "title_ru": "2.3 Интеллектуальный капитал",
+            "title_en": "Markets of presence",
+            "parent": "",
+            "prev": "business_model",
+            "next": "search_page"
+        },
+        "natural_capital": {
+            "title_ru": "2.5. Природный капитал",
+            "title_en": "Markets of presence",
+            "parent": "",
+            "prev": "business_model",
+            "next": "search_page"
+        },
+        "glossary": {
+            "title_ru": "Глоссарий",
+            "title_en": "Markets of presence",
+            "parent": "",
+            "prev": "business_model",
+            "next": "search_page"
+        },
+        "annex": {
+            "title_ru": "Приложения",
+            "title_en": "Annex",
+            "parent": "",
+            "prev": "business_model",
+            "next": "search_page"
+        },
+        "interactive": {
+            "title_ru": "Интерактивная аналитика",
+            "title_en": "Interactive analytics",
+            "parent": "",
+            "prev": "business_model",
+            "next": "search_page"
+        },
+        "feedback": {
+            "title_ru": "Обратная связь",
+            "title_en": "Feedback",
+            "parent": "",
+            "prev": "",
+            "next": ""
+        }
+    }
+}

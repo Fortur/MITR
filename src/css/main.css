@@ -1,0 +1,157 @@
+body {
+    font-size: 1rem;
+}
+
+span {
+    border-bottom: 0.7rem solid #990300;
+}
+
+.first-block {
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.first-block .text-front {
+    top: 20vh;
+}
+
+.header-buttons a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.red-button {
+    text-decoration: none !important;
+    font-weight: bold;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    color: white !important;
+    background: #981d17;
+}
+
+.cyan-button {
+    text-decoration: none !important;
+    font-weight: bold;
+    padding: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white !important;
+    background: #008fa3;
+}
+
+.header img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.img-back {
+    right: 0;
+    height: 100vh;
+    width: auto;
+}
+
+.text-front {
+    text-align: left;
+    position: absolute;
+}
+
+.red {
+    color: #981d17;
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+.main-b {
+    position: relative; /* добавили */
+}
+
+.down-b {
+    position: absolute; /* добавили */
+    bottom: 1rem; /* добавили */
+}
+
+.third-block h4 {
+    border-left: #008fa3 solid 0.5rem;
+    padding-left: 2rem;
+}
+
+.forth-block .col-2 {
+    color: white;
+    background: linear-gradient(to left, #007080, #57bfd2);
+    padding: 0;
+}
+
+.forth-block .col-2 p:first-child {
+    line-height: 3rem;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.forth-block li {
+    padding-right: 2rem;
+}
+
+.forth-block .col-2 p:nth-child(n+2) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.five-block .left-b {
+    padding-left: 1rem;
+    border-left: white solid 4px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.five-block .row {
+    padding-top: 10rem;
+}
+
+.five-block {
+    font-size: 1.4rem;
+}
+
+.five-block div, img {
+    width: 100%
+}
+
+.seven-block{
+    font-size: 1.4rem;
+}
+
+.eight-block{
+    font-size: 1.4rem;
+}
+
+.ten-block{
+    font-size: 1.4rem;
+}
+
+.form-check-input{
+    position: absolute;
+    top: 0.4rem;
+}
+
+.contacts{
+    bottom: 15rem !important;
+    font-size: 1.4rem;
+}
+
+.footer{
+    font-size: 1.4rem;
+    color:white !important;
+    background: linear-gradient(to left, #007080, #57bfd2);
+    width: 100%;
+    height: 5rem;
+}

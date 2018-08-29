@@ -2,12 +2,11 @@ body {
     font-size: 1rem;
 }
 
-h1 span,h2 span,h3 span,p span {
+h1 span, h2 span, h3 span, p span {
     border-bottom: 0.7rem solid #990300;
 }
 
 .first-block {
-    font-size: 1.5rem;
     text-align: right;
 }
 
@@ -28,7 +27,7 @@ h1 span,h2 span,h3 span,p span {
     padding-right: 0.7rem;
     color: white !important;
     background: #981d17;
-    border:none;
+    border: none;
 }
 
 .cyan-button {
@@ -39,12 +38,12 @@ h1 span,h2 span,h3 span,p span {
     padding-right: 1rem;
     color: white !important;
     background: #008fa3;
-    border:none;
+    border: none;
 }
 
 .header img {
-    width: 4rem;
-    height: 4rem;
+    width: 40%;
+    height: 100%;
 }
 
 .img-back {
@@ -63,15 +62,19 @@ h1 span,h2 span,h3 span,p span {
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 4rem;
 }
 
 h2 {
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
 h3 {
-    font-size: 4rem;
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 2rem;
 }
 
 .main-b {
@@ -80,21 +83,35 @@ h3 {
 
 .down-b {
     position: absolute; /* добавили */
-    bottom: 1rem; /* добавили */
+    bottom: 0.4rem; /* добавили */
+}
+
+.second-block{
+    line-height: 1.1em;
+}
+
+.second-block img {
+    width: 60%;
+    height: 1%;
+}
+
+.third-block img{
+    width: 100%;
 }
 
 .third-block h4 {
+    font-size: 1rem;
     border-left: #008fa3 solid 0.5rem;
     padding-left: 2rem;
 }
 
-.forth-block .col-2 {
+.forth-block div div div div {
     color: white;
     background: linear-gradient(to left, #007080, #57bfd2);
     padding: 0;
 }
 
-.forth-block .col-2 p:first-child {
+.forth-block div div div div p:first-child {
     line-height: 3rem;
     font-size: 5rem;
     font-weight: bold;
@@ -113,7 +130,7 @@ h3 {
     padding-left: 1rem;
     border-left: white solid 4px;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .five-block .row {
@@ -124,35 +141,57 @@ h3 {
     font-size: 1.4rem;
 }
 
-.five-block div, img {
+.five-block div, .six-block img, .five-block img {
     width: 100%
 }
 
 .seven-block{
+    line-height: 1.2em;
+}
+
+.seven-block .down-b{
+    bottom: 12rem;
+}
+
+.seven-block img {
+    width: 60%;
+    height: 1%;
+}
+
+.eight-block img {
+    width: inherit;
+}
+
+.ten-block {
     font-size: 1.4rem;
 }
 
-.eight-block{
-    font-size: 1.4rem;
-}
-
-.ten-block{
-    font-size: 1.4rem;
-}
-
-.form-check-input{
+.form-check-input {
     position: absolute;
     top: 0.4rem;
 }
 
 .contacts{
-    bottom: 15rem !important;
+    line-height: 1.2em;
+}
+
+.contacts .down-b{
+    bottom: 1rem;
+}
+
+.contacts img {
+    width: 60%;
+    height: 1%;
+}
+
+.contacts {
+    bottom: 0rem !important;
     font-size: 1.4rem;
 }
 
-.footer{
+.footer {
     font-size: 1.4rem;
-    color:white !important;
+    color: white !important;
     background: linear-gradient(to left, #007080, #57bfd2);
     width: 100%;
     height: 5rem;

@@ -18,6 +18,6 @@ nunjucks.configure(__dirname + '/src/view', {
 });
 
 app.use('/', require('./router'));
-app.listen(require('./config.js').port);
+app.listen(3003);
 
-console.log("Running at Port " + require('./config.js').port);
+console.log("Running at Port 3003");

@@ -86,23 +86,36 @@ h5 {
     bottom: 0.4rem; /* добавили */
 }
 
-.second-block{
+.second-block {
     line-height: 1.1em;
 }
 
 .second-block img {
-    width: 60%;
+    width: 50%;
     height: 1%;
+    max-height: 80vh;
 }
 
-.third-block img{
+@media screen and (min-width: 1340px) {
+    .second-block {
+        font-size: 1.4rem;
+    }
+}
+
+.third-block img {
     width: 100%;
 }
 
-.third-block h4 {
+.third-block p {
     font-size: 1rem;
     border-left: #008fa3 solid 0.5rem;
     padding-left: 2rem;
+}
+
+@media screen and (min-width: 1340px) {
+    .third-block p {
+        font-size: 1.5rem;
+    }
 }
 
 .forth-block div div div div {
@@ -121,9 +134,28 @@ h5 {
     padding-right: 2rem;
 }
 
-.forth-block .col-2 p:nth-child(n+2) {
+.forth-block div div div div p:nth-child(n+2) {
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.forth-block div div div div {
+    padding-bottom: 0.1rem;
+}
+
+.forth-block img {
+    padding-top: 4rem;
+    width: 100%;
+}
+
+.forth-block .down-b {
+    bottom: auto;
+}
+
+@media screen and (min-width: 1340px) {
+    .forth-block p, .forth-block li {
+        font-size: 1.5rem;
+    }
 }
 
 .five-block .left-b {
@@ -141,25 +173,91 @@ h5 {
     font-size: 1.4rem;
 }
 
-.five-block div, .six-block img, .five-block img {
+.five-block div, .six-block img {
     width: 100%
 }
 
-.seven-block{
+.five-block img {
+    height: 100vh;
+    width: 100%;
+}
+
+@media screen and (min-width: 1340px) {
+    .five-block .left-b {
+        font-size: 1.4rem;
+    }
+
+    .five-block {
+        font-size: 1.4rem;
+    }
+}
+
+.six-block div div:first-child img {
+    padding-left: 0.1rem;
+    width: 2rem;
+}
+
+@media screen and (min-width: 1340px) {
+    .six-block {
+        font-size: 1.2rem;
+    }
+
+    .six-block div div:first-child img {
+        padding-left: 0.1rem;
+        width: 3rem;
+    }
+}
+
+.seven-block {
     line-height: 1.2em;
 }
 
-.seven-block .down-b{
+.seven-block .down-b {
     bottom: 12rem;
 }
 
 .seven-block img {
-    width: 60%;
+    width: 50%;
     height: 1%;
+    max-height: 80vh;
 }
 
-.eight-block img {
+@media screen and (min-width: 1340px) {
+    .seven-block {
+        font-size: 1.5rem;
+    }
+}
+
+.eight-block {
+    text-align: right;
+}
+
+.eight-block div div {
+    text-align: left;
+}
+
+.eight-block > img {
+    padding-right: 10rem;
+    padding-top: 20rem;
+    width: 40rem;
+    margin-bottom: -5rem;
+}
+
+@media screen and (min-width: 1340px) {
+    .eight-block > img {
+        padding-right: 20rem;
+        padding-top: 30rem;
+        width: 50rem;
+        margin-bottom: -5rem;
+    }
+}
+
+.eight-block div div img {
     width: inherit;
+}
+
+.eight-block .down-b {
+    bottom: auto;
 }
 
 .ten-block {
@@ -171,11 +269,11 @@ h5 {
     top: 0.4rem;
 }
 
-.contacts{
+.contacts {
     line-height: 1.2em;
 }
 
-.contacts .down-b{
+.contacts .down-b {
     bottom: 1rem;
 }
 

@@ -96,7 +96,7 @@ h5 {
     max-height: 80vh;
 }
 
-@media screen and (min-width: 1340px) {
+@media screen and (min-width: 1367px) {
     .second-block {
         font-size: 1.4rem;
     }
@@ -112,7 +112,7 @@ h5 {
     padding-left: 2rem;
 }
 
-@media screen and (min-width: 1340px) {
+@media screen and (min-width: 1367px) {
     .third-block p {
         font-size: 1.5rem;
     }
@@ -152,7 +152,7 @@ h5 {
     bottom: auto;
 }
 
-@media screen and (min-width: 1340px) {
+@media screen and (min-width: 1367px) {
     .forth-block p, .forth-block li {
         font-size: 1.5rem;
     }
@@ -182,7 +182,7 @@ h5 {
     width: 100%;
 }
 
-@media screen and (min-width: 1340px) {
+@media screen and (min-width: 1367px) {
     .five-block .left-b {
         font-size: 1.4rem;
     }
@@ -197,7 +197,7 @@ h5 {
     width: 2rem;
 }
 
-@media screen and (min-width: 1340px) {
+@media screen and (min-width: 1367px) {
     .six-block {
         font-size: 1.2rem;
     }
@@ -222,7 +222,7 @@ h5 {
     max-height: 80vh;
 }
 
-@media screen and (min-width: 1340px) {
+@media screen and (min-width: 1367px) {
     .seven-block {
         font-size: 1.5rem;
     }
@@ -243,7 +243,7 @@ h5 {
     margin-bottom: -5rem;
 }
 
-@media screen and (min-width: 1340px) {
+@media screen and (min-width: 1367px) {
     .eight-block > img {
         padding-right: 20rem;
         padding-top: 30rem;

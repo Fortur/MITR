@@ -38,7 +38,7 @@ $(window).on('scroll', function() {
     $seven.removeClass('hid');
   }
 
-  if (scroll > $(".eight-block").offset().top-100) {
+  if (scroll > $(".eight-block").offset().top-180) {
     $eight.addClass('showing');
     $eight.removeClass('hid');
   }

@@ -2,6 +2,32 @@ body {
     font-size: 1rem;
 }
 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes showing {
+    0% {
+        opacity: 0;
+    }
+}
+
+/* Standard syntax */
+@keyframes showing {
+    0% {
+        opacity: 0;
+    }
+
+}
+
+.hid {
+    visibility: hidden;
+}
+
+.showing {
+    -webkit-animation-name: showing; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation-name: showing;
+    animation-duration: 2s;
+}
+
 h1 span, h2 span, h3 span, p span {
     border-bottom: 0.7rem solid #990300;
 }
@@ -50,6 +76,13 @@ h1 span, h2 span, h3 span, p span {
     right: 0;
     height: 100vh;
     width: auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1025px) {
+    .img-back {
+        height: auto;
+    }
 }
 
 .text-front {
@@ -293,4 +326,14 @@ h5 {
     background: linear-gradient(to left, #007080, #57bfd2);
     width: 100%;
     height: 5rem;
+}
+
+@media screen and (max-width: 1025px) {
+    .seven-block .down-b {
+        bottom: 0 !important;
+    }
+
+    .forth-block{
+        font-size: 0.8rem;
+    }
 }

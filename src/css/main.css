@@ -95,7 +95,13 @@ h1 span, h2 span, h3 span, p span {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 57px;
+}
+
+@media screen and (min-width: 1367px) {
+    h1 {
+        font-size: 60px;
+    }
 }
 
 h2 {
@@ -333,11 +339,11 @@ h5 {
         bottom: 0 !important;
     }
 
-    .forth-block{
+    .forth-block {
         font-size: 0.8rem;
     }
 }
 
-.mar-top-minus{
+.mar-top-minus {
     margin-top: -2rem;
 }

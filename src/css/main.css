@@ -199,7 +199,7 @@ h5 {
 }
 
 .five-block .row {
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .five-block {
@@ -336,4 +336,8 @@ h5 {
     .forth-block{
         font-size: 0.8rem;
     }
+}
+
+.mar-top-minus{
+    margin-top: -2rem;
 }

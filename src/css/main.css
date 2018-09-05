@@ -51,9 +51,15 @@ h1 span, h2 span, h3 span, p span {
     font-weight: bold;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
-    color: white !important;
+    color: #ffffff !important;
     background: #981d17;
     border: none;
+}
+
+.btn-disabled{
+    pointer-events: none;
+    color: #cccccc !important;
+    background: rgba(152, 29, 23, 0.62);
 }
 
 .cyan-button {
@@ -63,13 +69,13 @@ h1 span, h2 span, h3 span, p span {
     padding-left: 1rem;
     padding-right: 1rem;
     color: white !important;
-    background: #008fa3;
+    background: #008fa3 !important;
     border: none;
 }
 
-.header img {
-    width: 40%;
-    height: 100%;
+.header div a img {
+    width: 10.5rem;
+    height: 3rem;
 }
 
 .img-back {

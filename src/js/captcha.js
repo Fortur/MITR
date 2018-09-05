@@ -37,6 +37,7 @@ $(function () {
   $('ul').shuffle();
   $("#formsubmit").click(function () {
     if ($('ul').validate()) {
+      document.getElementById("formsubmitEnd").classList.remove("btn-disabled");
       document.getElementById("formsubmitEnd").setAttribute("style", "visible:visible");
       document.getElementById("formsubmit").dataset.target = "#flipFlop1"
     } else {
@@ -44,9 +45,8 @@ $(function () {
     }
   });
   $("#formsubmitEnd").click(function () {
-    document.getElementById("formsubmitEnd").setAttribute("style", "visibility:hidden");
-    document.getElementById("formsubmit").setAttribute("style", "visibility:hidden");
+    document.getElementById("formsubmitEnd").classList.add("btn-disabled");
+    document.getElementById("formsubmit").classList.add("btn-disabled");
     document.getElementById("submitText").setAttribute("style", "visibility:visible");
-
   });
 });

@@ -14,9 +14,9 @@
 <div id="ror" class="main">
 
   <div class="first-block">
-    <div class="container-fluid px-5 pt-5 position-absolute header row justify-content-between">
+    <div class="header container-fluid px-5 pt-5 position-absolute  row justify-content-between">
 
-      <div class="col-8">
+      <div class="col-7">
         <div class="row ml-1 justify-content-between header-buttons">
           <a class="red-button" href="#submit">Подать заявку</a>
           <a href="#about">О серии игр</a>
@@ -26,7 +26,9 @@
       </div>
 
       <div class="row col justify-content-end" >
-        <img class=" align-self-end" src="../img/circle.png">
+        <a href="http://digital-startup-studio.ru/startup-studio-hq/">
+          <img class="align-self-end" src="../img/circle.png">
+        </a>
       </div>
     </div>
     <div class="text-front pl-5 showing">
@@ -198,7 +200,7 @@
           </p>
           <br>
           <p class="left-b">
-            Бизнесс-аналитика
+            бизнес-аналитика
           </p>
           <p>
             10 октября, Москва
@@ -240,7 +242,7 @@
         </p>
         <img src="../img/chem.png">
         <h3>
-          Бизнесс-аналитика
+          бизнес-аналитика
         </h3>
         <p>
           Консультационные услуги по сопровождению цифровой трансформации бизнеса.
@@ -406,7 +408,7 @@
           </div>
         </fieldset>
         <div class="form-group row">
-          <input type="text" class="form-control offset-2 col-8" name="FI" placeholder="Ваше имя и фамилия полностью">
+          <input type="text" class="form-control offset-2 col-8"  name="FI" placeholder="Ваше имя и фамилия полностью">
         </div>
         <div class="form-group row">
           <input type="text" class="form-control offset-2 col-8" name="age" placeholder="Возраст">
@@ -429,13 +431,16 @@
         <div class="form-group row">
           <input type="text" class="form-control offset-2 col-8" name="email" placeholder="E-mail">
         </div>
-        <div class="form-group row justify-content-center mr-5">
-          <div>
-            <button style="visibility:hidden" id="formsubmitEnd" type="submit" class="offset-2 col-8 red-button"
+        <div class="form-group row justify-content-center mr-5 offset-2 col-8">
+          <div class="col-4">
+            <p >Подтвердите, что вы не робот</p>
+          </div>
+          <div class="col-4">
+            <button id="formsubmitEnd" type="submit" class="offset-2 col-8 red-button btn-disabled"
                     data-toggle="modal" data-target="#flipFlop">Подать заявку
             </button>
           </div>
-          <div>
+          <div class="col-4">
             <h3 id="submitText" style="visibility:hidden">Заявка подана!</h3>
           </div>
         </div>
@@ -445,21 +450,27 @@
 </div>
 
 
-<div class="offset-2 mar-top-minus">
-  <div class="captcha_wrap">
-    <div class="captcha">
-      Расставьте по порядку
+<div class="offset-2 col-8 row">
+  <div class="col-2">
+    <div class="captcha_wrap">
+      <div class="captcha">
+        Расставьте по порядку
+      </div>
+      <ul id="sortable">
+        <li class="captchaItem">1</li>
+        <li class="captchaItem">2</li>
+        <li class="captchaItem">3</li>
+        <li class="captchaItem">4</li>
+        <li class="captchaItem">5</li>
+        <li class="captchaItem">6</li>
+      </ul>
     </div>
-    <ul id="sortable">
-      <li class="captchaItem">1</li>
-      <li class="captchaItem">2</li>
-      <li class="captchaItem">3</li>
-      <li class="captchaItem">4</li>
-      <li class="captchaItem">5</li>
-      <li class="captchaItem">6</li>
-    </ul>
+    <div class="col-2">
+      <div>
+        <button id="formsubmit" class="ml-2 cyan-button" data-toggle="modal" data-target="">Готово</button>
+      </div>
+    </div>
   </div>
-  <button id="formsubmit" class="mx-5 cyan-button" data-toggle="modal" data-target="">Готово</button>
 </div>
 
 

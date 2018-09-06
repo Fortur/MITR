@@ -39,13 +39,15 @@ exports.sendEmail = (req, res) => {
     };
 
     // send mail with defined transport object
-    transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
-        return console.log(error);
-      }
-      console.log('Message sent: %s', info.messageId);
-      res.redirect('/');
-    });
+    if (!!req.body.phone || !!req.body.email) {
+      transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+          return console.log(error);
+        }
+        console.log('Message sent: %s', info.messageId);
+        res.redirect('/');
+      });
+    }
   });
 
 };
